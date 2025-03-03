@@ -1,15 +1,20 @@
 {
-  "name": "modern-typescript",
-  "module": "index.ts",
-  "type": "module",
-  "scripts": {
-// TODO ADD BIOME SCRIPTS
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.8.2"
-  }
+	"name": "modern-typescript",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"check": "bunx biome check",
+		"check:fix": "bunx biome check --fix",
+		"lint": "bunx biome lint",
+		"lint:fix": "bunx biome lint --fix",
+		"format": "bunx biome format",
+		"format:fix": "bunx biome format --fix"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.8.2"
+	}
 }
