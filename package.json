@@ -2,7 +2,11 @@
   "name": "modern-typescript",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+// TODO ADD BIOME SCRIPTS
+  },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/bun": "latest"
   },
   "peerDependencies": {
